@@ -4,7 +4,7 @@ date: 2022-12-30
 lastmod: 2022-12-30
 draft: false
 garden_tags: ["web", "build", "tutorial"]
-summary: "A tutorial to create a personal website with Hugo."
+summary: "A tutorial to create a personal website with Hugo, hosted on Netlify."
 status: "seeding"
 ---
 
@@ -22,17 +22,19 @@ Which brings me to the wishlist of features to reboot my personal website:
 2. Pretty code blocks with syntax highlighting
 3. Support for images, math equations and diagrams
 
+With that in mind, let's build!
+
 ### A new project in the new year --- ground-breaking! 🙄
 
-With some free time over the holidays, and filled with that _new-year's-resolution_ energy, I decided to finally start afresh and create a new digital space for my thoughts.
+With some free time over the holidays, and feeling that _new-year's-resolution_ energy, I decided to finally start afresh and create a new digital space for my thoughts and ramblings.
 
-Inspired by my colleague [A. Jesse Jiryu Davis][emptysquare]'s website, who recently joined my team and is an avid and seasoned writer, I decided to give static website generation a go, specifically [Hugo][hugo], a framework to create template-based websites from markdown content.
+Inspired by my colleague [A. Jesse Jiryu Davis][emptysquare]'s website, who recently joined my team and is an avid and seasoned writer, I decided to give static website generation a go --- specifically [Hugo][hugo], a framework to create template-based websites from markdown content.
 
 (Fun fact: I briefly worked with [Steve Francia][steve-francia], one of the creators of Hugo, at MongoDB. I knew of Hugo through him, but never tried it out seriously before.)
 
 For developers familiar with the command line and git, setting up Hugo is not too difficult, and the documentation has an easy [quickstart guide][hugo-quickstart].
 
-After installing hugo, for which I used `brew install hugo` on my MacBook Pro, one can have a scaffolding of a website, complete with pretty theme, ready with a few commands:
+After installing Hugo, for which I used `brew install hugo` on my MacBook Pro, one can have a scaffolding of a website, complete with pretty theme, ready with a few commands:
 
 ```sh {linenos=inline, hl_lines=4}
 hugo new site personal
@@ -43,11 +45,11 @@ echo "theme = 'hugo-digital-garden-theme'" >> config.toml
 hugo server
 ```
 
-Line 4, highlighted, shows how to add a theme as a submodule. There are many community-created themes to choose from; I went with the [Digital Garden][hugo-theme-digital-garden] theme, as that was close to what I wanted to achieve with this site.
+Line 4, highlighted, shows how to add a theme as a submodule. There are many community-created themes to choose from; I went with the [Digital Garden][hugo-theme-digital-garden] theme, as that was close to what I wanted to achieve with this site. (What makes a website a "digital garden" is a story for another post, but for the curious, here's a [pointer][digital-garden] from Maggie Appleton's site, which also inspired the theme I'm using.)
 
 ### Tweaking it and making it my own
 
-Themes hosted on the Hugo website come with an `exampleSite` directory,which demos how to use the theme, complete with config options and dummy content. I recommend starting there, specifically in the `config.toml` file to see what other config options the theme expects and offers.
+Themes hosted on the Hugo website come with an `exampleSite` directory, which shows how to use the theme, complete with config options and dummy content. I recommend starting there, specifically in the `config.toml` file to see what other config options the theme expects and offers.
 
 I ended up removing the Library and Project sub-pages from my version. I might revisit those concepts later, for now I'm happy just having a space for blog posts.
 
@@ -93,11 +95,11 @@ $$
 
 ---
 
-The final step is to host the generated site on [Netlify][netlify] and set up automatic deployment on Github. I'll explain that part in another post, after I figured out how 😉.
-
-The total setup time, including writing this first article, took me less than a day. Happy gardening!
+The final step is to host the generated site on [Netlify][netlify] and set up automatic deployment on Github. This is pretty straight-forward and well explained in the [Hugo documentation][deploy-netlify].
 
 {{<figure src="./spring-leaves.jpg" width="100%" alt="spring leaves">}}
+
+The total setup time, including writing this first article, took me less than a day. Happy gardening!
 
 [md-code-fences]: https://www.markdownguide.org/extended-syntax/#fenced-code-blocks
 [md-tables]: https://www.markdownguide.org/extended-syntax/#tables
@@ -110,3 +112,5 @@ The total setup time, including writing this first article, took me less than a 
 [hugo-quickstart]: https://gohugo.io/getting-started/quick-start/
 [hugo-theme-digital-garden]: https://themes.gohugo.io/themes/hugo-digital-garden-theme/
 [netlify]: https://www.netlify.com/
+[digital-garden]: https://maggieappleton.com/garden-history
+[deploy-netlify]: https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
