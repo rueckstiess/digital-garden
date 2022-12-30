@@ -22,7 +22,7 @@ Which brings me to the wishlist of features to reboot my personal website:
 2. Pretty code blocks with syntax highlighting
 3. Support for images, math equations and diagrams
 
-### A new project in the near year --- ground-breaking! 🙄
+### A new project in the new year --- ground-breaking! 🙄
 
 With some free time over the holidays, and filled with that _new-year's-resolution_ energy, I decided to finally start afresh and create a new digital space for my thoughts.
 
