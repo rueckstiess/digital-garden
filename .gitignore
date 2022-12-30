@@ -14,3 +14,5 @@ hugo.linux
 
 # Themes for now (remove this when working with a theme)
 /themes
+
+.DS_Store

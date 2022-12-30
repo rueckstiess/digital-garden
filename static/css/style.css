@@ -59,6 +59,14 @@ table td{
   font-size: medium;
 }
 
+figure {
+  padding: 2rem 0;
+}
+
+hr {
+  margin: 4rem 0;
+}
+
 .serif {
   font-family: var(--summary);
   color: var(--grey);
@@ -96,7 +104,7 @@ table td{
 .card-date {
   font-weight: lighter;
   color: var(--grey);
-  font-size: x-small;
+  font-size: small;
 }
 
 @media(max-width: 990px){
@@ -136,7 +144,7 @@ code {
 .status {
   font-weight: lighter;
   color: green;
-  font-size: x-small;
+  font-size: small;
 }
 
 .status-inline {
@@ -300,7 +308,7 @@ code {
 /********************* Content *********************/
 
 .main-content {
-  line-height: 40px;
+  line-height: 35px;
   font-size: 22px;
 }
 .main-content::first-letter {
