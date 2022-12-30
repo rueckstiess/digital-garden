@@ -4,8 +4,9 @@ title = "Thomas Rückstieß"
 copyright = "Thomas Rückstieß ©"
 
 [params]
-  name = "Thomas Rückstieß"
-  description = "Welcome to my little space on the web."
+  firstname = "Thomas"
+  lastname = "Rückstieß"
+  description = "Welcome to my space on the web."
   initials = "TR"
   googleAnalytics = ""
 
