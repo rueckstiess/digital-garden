@@ -15,7 +15,7 @@ $$
 
 Vivamus sagittis $p(x)$ with $x$ being the sum of the term. urna a turpis venenatis dapibus. Aenean quis orci ipsum. Integer ac magna non tellus dictum rutrum. Fusce interdum vehicula pulvinar. Vestibulum at libero dolor. Donec malesuada varius dui, vel placerat sem sagittis eu. Phasellus sed turpis gravida, hendrerit mi sed, lobortis odio. Mauris et pellentesque lorem. Suspendisse venenatis urna sed elit blandit vestibulum. Duis varius diam et enim pellentesque sagittis. Here, I'm trying to link to the [Foo](../foo/) Article.
 
-```python {linenos=table}
+```python
 @consume_iterators
 def loss(self, output):
     """takes output of shape (n, out_size) and target of shape (n, 1)

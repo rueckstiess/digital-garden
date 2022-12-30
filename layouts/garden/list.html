@@ -6,6 +6,11 @@
         <div class="container-fluid py-2">
             <h1 class="display-2 mb-4">{{ .Title }}</h1>
             <p class="bio col-md-8 fs-4 serif">{{ .Summary }}</p>
+            <p class="bio col-md-8 fs-4 serif">
+                Expect rough thoughts at <span class="status-inline">Seeding 🌱</span> level, 
+                refined content at <span class="status-inline">Growing 🌿</span> level, and 
+                articles that are unlikely to change much at <span class="status-inline">Evergreen 🌳</span> level.
+            </p>
         </div>
     </div>
 </div>
@@ -15,7 +20,7 @@
 
     <!-- Multiple checkboxes option -->
     <div class="btn-toolbar mb-2 bio" role="toolbar" aria-label="Toolbar with button groups">
-        <i class="fas fa-filter"></i>
+        <i class="fa fa-tags fa-sm"></i>
         <div id="filters" class="button-group">
             {{ range $name, $taxonomy := .Site.Taxonomies.garden_tags }}
             {{ $btnid := $name | printf ".js-iso-%s"}}
@@ -42,7 +47,7 @@
 </div>
 
 <!-- Garden Post Cards -->
-<div class="container">
+<div class="container pb-5">
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4" id="blogposts">
         {{ range .Pages.ByPublishDate.Reverse }}
         {{ partial "card_garden.html" . }}

@@ -136,9 +136,13 @@ code {
 .status {
   font-weight: lighter;
   color: green;
-  font-size: small;
+  font-size: x-small;
 }
 
+.status-inline {
+  font-weight: lighter;
+  color: green;
+}
 
 /********************* Navbar *********************/
 
@@ -165,7 +169,7 @@ code {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: var(--red);
+  background-color: var(--blue);
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
@@ -173,6 +177,16 @@ code {
 .nav-link:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
+}
+
+.initial {
+  position: relative;
+  top: -1px;
+}
+
+.initial a b:hover {
+  color: var(--blue);
+  transition: color .5s;
 }
 
 
@@ -186,6 +200,14 @@ code {
   max-width: 750px;
   font-weight: 200;
 }
+
+.bio i.fa {
+  padding-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
+
 .heading {
     font-weight: 400;
     color: var(--grey);
@@ -232,7 +254,7 @@ code {
   padding: 0.15em 0.5em;
   background: var(--white);
   border: 2px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   margin-right: 3px;
   color:var(--grey);
   cursor: pointer;
@@ -303,6 +325,7 @@ a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .highlight {
   line-height: 120%;
   font-size: large;
@@ -312,10 +335,30 @@ a:hover {
 
 /********************* Footer *********************/
 
+.attribution {
+  position: relative;
+  padding-left: 10px;
+  font-size: smaller;
+  color: grey;
+}
+
+.attribution:first-child {
+  padding-left: 0px;
+}
+
+.attribution:after {
+  padding-left: 10px;
+  content: "|";
+}
+
+.attribution:last-child:after {
+  content: "";
+}
+
 .footer-social a,
 .footer-social i{
   color: var(--dark);
-  font-size: x-large;
+  font-size: larger;
 }
 
 .footer-social a,
