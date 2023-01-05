@@ -60,7 +60,7 @@ table td{
 }
 
 figure {
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 }
 
 hr {
@@ -307,13 +307,24 @@ code {
 
 /********************* Content *********************/
 
-.main-content {
-  line-height: 35px;
-  font-size: 22px;
+
+@media all and (max-width: 550px) {
+  .main-content {
+    line-height: 23px;
+    font-size: 16px;
+  }
 }
+
+@media all and (min-width: 551px) {
+  .main-content {
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
+
 .main-content::first-letter {
   font-size: 375%;
-  padding: 20px 15px 0px 0px;
+  padding: 20px 10px 5px 0px;
   float: left;
   font-weight: bold;
 }
@@ -335,8 +346,8 @@ a:hover {
 }
 
 .highlight {
+  font-size: 0.9em;
   line-height: 120%;
-  font-size: large;
   padding-left: 10px;
   border-color: var(--dark);
 }
@@ -348,6 +359,7 @@ a:hover {
   padding-left: 10px;
   font-size: smaller;
   color: grey;
+  white-space: nowrap;
 }
 
 .attribution:first-child {
@@ -361,6 +373,18 @@ a:hover {
 
 .attribution:last-child:after {
   content: "";
+}
+
+@media all and (max-width: 550px) {
+  .attribution {
+    font-size: 10px;
+    padding-left: 0px;
+  }
+
+  .attribution:after {
+    padding-left: 3px;
+    content: "|";
+  }
 }
 
 .footer-social a,
