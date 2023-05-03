@@ -3,9 +3,9 @@ title: "Building a Digital Garden"
 date: 2022-12-30
 lastmod: 2022-12-30
 draft: false
-garden_tags: ["web", "build", "tutorial"]
+garden_tags: ["web", "tutorial"]
 summary: "A tutorial to create a personal website with Hugo, hosted on Netlify."
-status: "growing"
+status: "evergreen"
 ---
 
 Decades ago, when I was just starting to learn about web development, I was eager to understand and build everything from scratch. I used to design and code my own bespoke website, written in PHP with fancy, home-grown content management system and custom design. But like many (digital and organic) things, if you don't put in the effort and maintain them regularly, they wither away. And so over the years, with changing interests and less free time, I neglected my page to a point where the task of bringing it up to date just didn't feel worth the effort anymore.
