@@ -24,11 +24,11 @@ Every request creates its bespoke program in a single forward pass, which is exe
 
 UIs are generated on demand, too. A recent IUI paper showed that the LLM carefully weighs off a made-to-fitness score against familiarity and human preference, multiplied by a per-person tensor representative of their ability to adapt to new patterns. Most people average around a 0.4 these days. You feel lost in a stream of information when you manually set the factor to higher levels.
 
-Crypto-currencies had a surprise comeback. Really everything programmable had a comeback when the first markets opened their APIs to the LLM, re-starting the economy like a defibrillator. Prediction markets, once frowned upon as this generation's pokies, unexpectedly turned out to be the most reliable source of truth for all globally shared events. Lies dissipate quickly when one has to put their money where their mouth is.
-
 Data is now literally at our finger tips. We can access it in any shape or form, with close to no latency, only bottlenecked by our limited perception. Schemas were the first to go, an archaic concept no longer needed amid learned indexes that adapt to the data distribution in real-time to ensure optimal query processing.
 
 Attention is all we need, all we can give, really, to the web dominated by virtual agents interacting mainly with themselves. The attention industry is booming, and its products are hard to resist. But so is the P3 sector: protection, privacy and personalization is all the rage.
+
+Crypto-currencies had a surprise comeback. Really everything programmable had a comeback when the first markets opened their APIs to the LLM, re-starting the economy like a defibrillator. Prediction markets, once frowned upon as this generation's pokies, unexpectedly turned out to be the most reliable source of truth for all globally shared events. Lies dissipate quickly when one has to put their money where their mouth is.
 
 When the arbitrage wars came to an end, what remained was a perfectly balanced and fair global Nash equilibrium. One of the better things to have happened since the self-replicating technological virus Vaswani-2017 hit us. It wasn't the architecture so much as bending the algorithmic complexity curve ever so slightly towards linear. Then, all that was needed was a spark of AGI. The connectionist spring sprung, for the third and final time. If we're honest, we always knew deep down that recursive self-improvement had the potential to set the spiral in motion.
 
