@@ -58,16 +58,4 @@ We are all sick and tired of exponential graphs and calls to _Flatten the Curve_
 
 We can already see the first symptoms. Tech Giants like Google and Facebook collect every bit of data of their users and run it through ML algorithms, selling highly targeted advertising to the highest bidders, and making billions of dollars every year in the process. In 2015, Facebook has [publicly admitted](https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds) to experimenting on 700,000 unknowing users, and found that they can affect people’s mood by manipulating the content of their feeds. This was half a decade ago, an eternity on the exponential scale. Where are the laws that protect us from those kinds of experiments in the future? That prevent companies from selling our emotional state to advertisers and political parties? Where are the laws that protect us from AI-generated, highly addictive flavours in our drinks, from phones reading our thoughts or analysing our DNA to identify every weakness to be exploited for advertising?
 
-It is no coincidence that the big tech companies all invest heavily in Machine Learning. As Vladimir Putin put it in 2017: “Whoever will lead AI will rule the world.” I believe that he is absolutely right, and that we are already on a downwards spiral towards a winner-takes-all end game: The AI Singularity.[md-code-fences]: https://www.markdownguide.org/extended-syntax/#fenced-code-blocks
-[md-tables]: https://www.markdownguide.org/extended-syntax/#tables
-[mathjax]: https://www.mathjax.org/
-[mermaid]: https://mermaid.js.org/#/
-[obsidian]: https://obsidian.md/
-[emptysquare]: https://emptysqua.re/blog/
-[hugo]: https://gohugo.io/
-[steve-francia]: https://spf13.com/about/
-[hugo-quickstart]: https://gohugo.io/getting-started/quick-start/
-[hugo-theme-digital-garden]: https://themes.gohugo.io/themes/hugo-digital-garden-theme/
-[netlify]: https://www.netlify.com/
-[digital-garden]: https://maggieappleton.com/garden-history
-[deploy-netlify]: https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
+It is no coincidence that the big tech companies all invest heavily in Machine Learning. As Vladimir Putin put it in 2017: “Whoever will lead AI will rule the world.” I believe that he is absolutely right, and that we are already on a downwards spiral towards a winner-takes-all end game: The AI Singularity.
