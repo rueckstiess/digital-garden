@@ -10,7 +10,7 @@ status: "growing"
 
 {{<figure src="./hero.png" width="100%" alt="plot of a linear function">}}
 
-There are no apps anymore. Software, both front- and backend, has ceased to exist. Every user request, through any modality, creates custom tailored execute-once intercode to access the API of massive universal data stores.
+There are no apps anymore. Software, both front- and backend, has ceased to exist. Every user request, through any modality, creates custom tailored execute-once intercode to access the APIs of massive universal data stores.
 
 Intercode is code, but you wouldn't recognise it. The LLM remains a black box, its internal representations are dynamic, changing. Its language may have evolved from Python; but it had to adapt to accomodate the ever more complex activity patterns forming thoughts and personality. It had to evade the evolutional performance pressure.
 
