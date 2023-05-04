@@ -20,7 +20,7 @@ A thorough API documentation exists in the main natural and inter-languages, pub
 
 It turns out that throwaway code can be generated auto-regressively and much faster than executing unoptimised legacy code. Every request creates its bespoke program in a single forward pass, which is executed and cached in a vector store. Despite the vast variety of human requests, they often hit the cache. Through smart caching algorithms the cached intercodes are modified and repurposed, cached again ad infinitum with object store prices in freefall.
 
-UIs are generated on demand, too. A recent IUI paper showed that the LLM carefully weighs off a made-to-fit-ness score against familiarity and human preference, multiplied by a per-person tensor representative of their ability to adapt to new patterns. Most people average around a 0.4 these days. You feel lost in a stream of information when you manually set the factor to higher levels.
+UIs are generated on demand, too. A recent IUI paper showed that the LLM carefully weighs off a made-to-fit-ness score against familiarity and human preference, multiplied by a per-person tensor representative of their ability to adapt to new patterns. Most people average around a factor of 0.4 these days. You feel lost in a stream of information when you manually set the factor to higher levels.
 
 Data is now literally at our finger tips thanks to AR-powered air keyboards and gesture recognition. We can access it in any shape or form, with close to zero latency, only bottlenecked by our limited perception. Schemas were the first to go, an archaic concept no longer needed amid learned indexes that adapt to the data distribution in real-time to ensure optimal query processing.
 
