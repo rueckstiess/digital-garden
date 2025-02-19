@@ -1,0 +1,99 @@
+baseURL = 'https://tomr.au/'
+languageCode = 'en-us'
+title = "To Whom It May Concern"
+theme = 'typo'
+
+# Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A messy cocktail of my thoughts"
+# Appearance settings
+theme = 'auto'
+colorPalette = 'base16-ocean'
+hideHeader = false
+
+# Color Palettes
+# default
+# catpuccin
+# gruvebox
+# eink
+# base16-default
+# base16-eighties
+# base16-ocean
+# base16-mocha
+# base16-cupcake
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Greetings.'
+homeIntroContent = """
+I am a researcher, builder, thinker, dreamer. I write about the topics that interest me, including AI, coding, science,
+philosophy, block chains and productivity. 
+
+You can find me in the usual places:
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/rueckstiess/"
+
+# [[params.social]]
+# name = "medium"
+# url = "https://medium.com/@user"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/tomonezero"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/rueckstiess"
+
+[[params.social]]
+name = "bluesky"
+url = "https://bsky.app/profile/tomonezero.bsky.social"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'xcode'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

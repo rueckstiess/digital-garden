@@ -1,7 +1,5 @@
 +++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-lastmod: {{ .Lastmod }}
+date = '{{ .Date }}'
 draft = true
-status = "seeding"
+title = '{{ replace .File.ContentBaseName "-" " " | title }}'
 +++

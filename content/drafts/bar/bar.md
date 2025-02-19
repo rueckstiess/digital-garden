@@ -2,7 +2,7 @@
 title: "Bar Article"
 date: 2019-01-01
 lastmod: 2019-03-17
-draft: true
+draft: false
 garden_tags: ["fur", "cleaning"]
 summary: "I'm a summary for Bar"
 status: "seeding"

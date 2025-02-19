@@ -1,14 +1,14 @@
 ---
 title: "Low-Code. No-Code. No-Apps."
-date: 2023-05-03
-lastmod: 2023-05-03
-draft: false
-garden_tags: ["creative writing", "AI", "LLM"]
 summary: "An exercise in scaling our ambition."
-status: "growing"
+date: 2023-05-03
+draft: false
+tags: ["creative writing", "AI", "LLM"]
+showTags: true
+hidePagination: true
 ---
 
-{{<figure src="./hero.png" width="100%" alt="plot of a linear function">}}
+![Abstraction](./hero.png)
 
 There are no apps anymore. Software, both front- and backend, has ceased to exist. Every user request, through any modality, creates custom tailored execute-once intercode to access the APIs of massive universal data stores.
 

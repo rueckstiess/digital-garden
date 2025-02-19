@@ -1,18 +1,19 @@
 ---
 title: "About me"
-date: 2022-12-29
-summary: "Hi, I'm Thomas Rückstieß 👋"
-layout: about
+hidePagination: true
+hideBackToTop: true
 ---
+Hi, I'm Thomas Rückstieß.
 
 Born in Munich, Germany and educated in Tübingen and Munich, I hold a Ph.D. in Machine Learning from the Technical University Munich ([TUM][tum]), with the focus of my [thesis][thesis] at the intersection of Supervised and Reinforcement Learning. My other peer-reviewed publications can be found [here][publications].
 
-I'm based in Melbourne, Australia and was until recently the Head of the Machine Learning Research Lab at [MongoDB][mongodb]. In Feb. 2025 I finished up and I'm now taking a break from employment and instead work as an independent researcher on my own projects. 
+For the last 12 years, I was working for [MongoDB][mongodb] in different roles across Technical Services, Engineering and Research. Most recently I developed a Machine Learning framework to model probability distributions over semi-structured data (such as JSON) based on transformers. You can find out more about it in our [preprint on Arxiv][paper] and our open source library [ORiGAMi][origami]. 
 
-My surname is pronounced [/ˈrʏkʃtiːs/][pronounce], which for English native speakers sounds a bit like "rick-shtees". It contains two letters that aren't available in the standard latin alphabet: The umlaut "ü" and the "ß" (sharp s), which can be replaced with "ue" and "ss" respectively. That's why you'll also see my name spelled _Rueckstiess_ at times.
+I finished up at MongoDB in February 2025 and am now taking a break from full time employment to explore, learn and work on personal projects. 
 
 [tum]: https://www.tum.de
 [thesis]: https://mediatum.ub.tum.de/doc/1174677/1174677.pdf
 [publications]: https://scholar.google.com/citations?hl=en&user=dRIgADIAAAAJ
 [mongodb]: https://www.mongodb.com/home
-[pronounce]: http://ipa-reader.xyz/?text=%2Fˈr%CA%8Fk%CA%83ti%CB%90s%2F&voice=Marlene
+[paper]: https://arxiv.org/abs/2412.17348
+[origami]: https://github.com/mongodb-labs/origami
