@@ -11,7 +11,7 @@ tag = 'tags'
 
 [params]
 # Meta description
-description = "A messy cocktail of my thoughts"
+description = "A messy cocktail of my random thoughts"
 # Appearance settings
 theme = 'auto'
 colorPalette = 'base16-ocean'
