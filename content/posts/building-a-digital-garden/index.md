@@ -3,7 +3,8 @@ title: "Building a Digital Garden"
 date: 2022-12-30
 lastmod: 2022-12-30
 draft: false
-garden_tags: ["web", "tutorial"]
+tags: ["web", "tutorial"]
+math: true
 summary: "A tutorial to create a personal website with Hugo, hosted on Netlify."
 status: "evergreen"
 ---
@@ -36,7 +37,7 @@ For developers familiar with the command line and git, setting up Hugo is not to
 
 After installing Hugo, for which I used `brew install hugo` on my MacBook Pro, one can have a scaffolding of a website, complete with pretty theme, ready with a few commands:
 
-```sh {linenos=inline, hl_lines=4}
+```sh
 hugo new site personal
 cd personal
 git init

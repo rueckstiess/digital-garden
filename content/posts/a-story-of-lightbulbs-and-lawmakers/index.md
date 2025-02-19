@@ -3,9 +3,10 @@ title: "A Story of Lightbulbs and Lawmakers"
 date: 2020-05-19
 lastmod: 2020-05-19
 draft: false
-garden_tags: ["creative writing", "AI"]
+tags: ["creative writing", "AI"]
+showTags: true
+hidePagination: true
 summary: "— or why we’ll never be prepared for AI."
-status: "evergreen"
 ---
 
 Here’s a challenge: Make your car disappear in plain sight. Disassemble it down to its individual parts, then hide the pieces behind nearby bushes. I doubt you’d be able to, unless you’re a very savvy car mechanic or perhaps David Copperfield. And why on Earth would you want to do this anyway?
