@@ -1,6 +1,6 @@
 baseURL = 'https://tomr.au/'
 languageCode = 'en-us'
-title = "To Whom It May Concern"
+title = "tomr.au"
 theme = 'typo'
 
 # Google analytics code
@@ -78,6 +78,10 @@ url = "/"
 [[params.menu]]
 name = "posts"
 url = "/posts"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
 
 [[params.menu]]
 name = "about"
