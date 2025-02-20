@@ -3,7 +3,7 @@ title: "A Story of Lightbulbs and Lawmakers"
 date: 2020-05-19
 lastmod: 2020-05-19
 draft: false
-tags: ["creative writing", "AI"]
+tags: ["creative writing", "ai"]
 showTags: true
 hidePagination: true
 summary: "— or why we’ll never be prepared for AI."

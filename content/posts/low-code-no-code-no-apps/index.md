@@ -3,7 +3,7 @@ title: "Low-Code. No-Code. No-Apps."
 summary: "An exercise in scaling our ambition."
 date: 2023-05-03
 draft: false
-tags: ["creative writing", "AI", "LLM"]
+tags: ["creative writing", "ai"]
 showTags: true
 hidePagination: true
 ---
