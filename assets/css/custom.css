@@ -1,0 +1,62 @@
+:root {
+
+  --h1-font-size: 2rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.1rem;
+  --hx-font-size: 1rem;
+
+  --p-font-size: 0.95em;
+  --p-line-height: 1.4em;
+
+  .single-tags span,
+  .tag-title {
+    text-transform: lowercase;
+    margin-right: .5rem;
+    background-color: var(--code-background);
+    padding: 0rem 0.7rem 0.15rem 0.7rem;
+    border-radius: 1rem;
+    border: 1px solid var(--code-border);
+    display: inline-block;
+    font-size: 0.78em;
+  }
+
+  .single-tags a,
+  .tag-title a {
+    text-decoration: none;
+  }
+
+  .single-tags a:hover,
+  .tag-title a:hover {
+    text-decoration: underline;
+  }
+
+
+  .tag-title {
+    font-size: 0.9rem;
+    margin: 0 0 0.3rem 0;
+  }
+
+
+  h3 {
+    font-size: var(--h3-font-size);
+  }
+
+  h4,
+  h5,
+  h6 {
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: var(--hx-font-size);
+    margin-top: var(--hx-margin-top);
+    margin-bottom: var(--hx-margin-bottom);
+  }
+
+  code {
+    font-size: .85rem;
+  }
+
+  .single-readtime {
+    margin-top: 0.6rem;
+    font-size: .9rem;
+  }
+}
