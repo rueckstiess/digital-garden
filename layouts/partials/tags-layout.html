@@ -1,0 +1,7 @@
+<div class="tags-container">
+  {{ range .Pages.ByTitle }}
+  <a href="{{ .RelPermalink }}" class="tag-item">
+    #{{ .Title }}
+  </a>
+  {{ end }}
+</div>

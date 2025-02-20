@@ -2,10 +2,11 @@
 title: "Awesome Shell Prompts on MacOS"
 date: 2024-07-06
 draft: false
-tags: ["dev", "Mac", "Tutorial"]
+tags: ["dev", "mac", "tutorial"]
 toc: true
 showTags: true
 hidePagination: true
+
 summary: "Creating awesome looking shell prompts for the MacOS Terminal."
 ---
 
