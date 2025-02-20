@@ -25,17 +25,20 @@ How many Germans does it take to change a light bulb?
 
 The correct answer to this joke is: “One, they are efficient and don’t have a sense of humour”. Being German myself, I never understood why this is funny, but the math makes sense. One German, one light bulb, ten Germans, ten light bulbs, 100 Germans, … you get the idea. This kind of relationship is called linear or proportional growth. The more Germans, the more light bulbs can be changed in the same amount of time.
 
-{{<figure src="./linear.png" width="100%" alt="plot of a linear function">}}
+![plot of linear function](./linear-light.png#light)
+![plot of linear function](./linear-dark.png#dark)
 
 The same is not true for lawmakers. Doubling the number of politicians does not give us twice the amount of laws, or twice the changes to existing laws. Most of us live in representative democracies and the bottleneck of making changes to the law is not the amount of politicians, but the process itself. Any potential new threat to society has to be first noticed, then evaluated, a response has to be formulated, modelled for its efficacy and safety and then introduced as a bill. What follows next is a lengthy and uncertain process through legislature before the bill can be enacted into law. Even under perfect circumstances (namely not hyper-partisan politics or late stage capitalism), this process can take months or sometimes years.
 
 Even worse, as societies grow, their laws and processes tend to get more complex, their politics more partisan, and their ability to react to change gets slower. The best we can hope for is that the time to change the laws remains constant, expressed as a horizontal line in a chart. By the way, it doesn’t matter where that line sits, at 3 (as in the chart below), 30 or 300. The fact remains that it doesn’t increase as the population grows.
 
-{{<figure src="./constant.png" width="100%" alt="plot of a constant function">}}
+![plot of constant function](./constant-light.png#light)
+![plot of constant function](./constant-dark.png#dark)
 
 Finally, let’s take a look at exponential growth. Exponential growth can be found everywhere in nature, but it’s surprisingly hard to understand for us humans. What it means is that not the change, but the rate of change grows proportionally over time. In other words, the numbers double in constant intervals. Interest grows exponentially, and so do viruses. Recent events caused by the global COVID-19 outbreak give us a horrific glimpse of what exponential growth feels like: It’s far away and doesn’t affect you, until it suddenly does! In March my company had scheduled a trial work-from-home day for the entire office a week out. That test never happened; the policy had changed so quickly that a few days before said trial, all employees were advised that they would have to work from home immediately and until further notice. Cancer grows exponentially, too. If you’ve ever lost a family member or a friend to cancer, you may better understand what it’s like. Everything was fine, until they get a diagnosis. At this point, they often only have months or even weeks left.
 
-{{<figure src="./all-three.png" width="100%" alt="constant, linear and exponential growth in one chart">}}
+![constant, linear and exponential growth in one chart](./all-three-light.png#light)
+![constant, linear and exponential growth in one chart](./all-three-dark.png#dark)
 
 Technological progress, the very thing we determined is one of the main reasons for laws to change, advances exponentially too. You’ve probably heard of [Moore’s Law](https://en.wikipedia.org/wiki/Moore%27s_law), which is often mistaken as describing the exponential growth of computing power, but more accurately describes the exponential growth of numbers of transistors on a microchip. The two are not the same, although highly correlated. In addition to ever denser computer chips, we have exponential growth in processor clock rates, increase in instruction-level parallelism, more computers being built every year and not to forget the exponential growth of the world population itself: more bright minds advancing the state-of-the-art in technology every day.
 
@@ -43,11 +46,13 @@ One particular field of technology that also advances exponentially, is Artifici
 
 Tim Urban, one of my favourite bloggers, wrote a two-part article about [The AI Revolution](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) which I cannot recommend highly enough. He starts by explaining what it feels like to stand at the cliff of an exponential growth curve, looking forwards. This image stuck with me ever since I first read his post, and I’m going to steal the example for your benefit as well (I hope you don’t mind, Tim).
 
-{{<figure src="./stick-1.png" width="100%" alt="dude standing on an exponential curve, looking forward">}}
+![dude standing on an exponential curve, looking forward](./stick-1-light.png#light)
+![dude standing on an exponential curve, looking forward](./stick-1-dark.png#dark)
 
 Just looking at this first illustration without seeing the future, you wouldn’t be able to tell that you’d run out of vertical space before reaching the end of the graph. The second illustration has the exact same slope, but is extrapolated just a little further on the x-axis. It’s easy to say after the fact “yep, that was exponential growth”, but looking forward into the unknown, we often can’t distinguish it from linear change, or in the early case from the steady state, no change at all.
 
-{{<figure src="./stick-2.png" width="100%" alt="dude standing on an exponential curve, looking backward">}}
+![dude standing on an exponential curve, looking backwards](./stick-2-light.png#light)
+![dude standing on an exponential curve, looking backwards](./stick-2-dark.png#dark)
 
 As someone with a PhD in Machine Learning, the recent advances in the field scare me profoundly. We can downplay the progress all we want. First it was chess that was touted the holy grail of human intelligence, and AI came for it. Then, a computer unexpectedly, and 10 years early, beat us at Go. While AlphaGo did receive some press coverage and the respect of the ML community, the general population kind of brushed it off as an interesting outlier in our predictions of where AI would be at the time. Now we have humanoid robots [doing gymnastics](https://youtu.be/_sBBaNYex3E) or [Parkour](https://www.youtube.com/watch?v=LikxFZZO2sk&list=PLV5Y1URLAmfTbclp9qzH6hy7rSf8ANGGE&index=39) and algorithms that write [music](https://magenta.tensorflow.org/), [poems](https://www.newyorker.com/culture/annals-of-inquiry/the-mechanical-muse), or [whatever you want](https://openai.com/blog/better-language-models/).
 
