@@ -26,7 +26,7 @@ Data is now literally at our finger tips thanks to AR-powered air keyboards and 
 
 Attention is all we need, all we can give, really, to the web dominated by virtual agents interacting mainly with themselves. The attention industry is booming, and its products are hard to resist. But so is the P3 sector: protection, privacy and personalisation is all the rage.
 
-Crypto-currencies had a surprise comeback. Really everything programmable had a comeback when the first markets opened their APIs to the LLM. It jumpstarted the economy like a defibrillator. Prediction markets, once frowned upon as this generation's pokies, unexpectedly turned out to be the most reliable source of truth for all global events. Lies dissipate quickly when one has to put their tokens where their mouth is.
+Crypto-currencies had a surprise comeback. Really everything programmable had a comeback when the first markets opened their APIs to the LLM. It jumpstarted the economy like a defibrillator. Prediction markets, once frowned upon as this generation's casinos, unexpectedly turned out to be the most reliable source of truth for all global events. Lies dissipate quickly when one has to put their tokens where their mouth is.
 
 When the arbitrage wars came to an end, what remained was a perfectly balanced global Nash equilibrium. One of the better things to have happened since the self-replicating technological virus Vaswani-17 hit us. It wasn't the architecture so much as bending the algorithmic complexity curve ever so slightly towards linear. Then, all that was needed was a spark of AGI. The connectionist spring sprung, for the third and final time. If we're being honest, we always knew deep down that recursive self-improvement had the potential to set the spiral in motion.
 
