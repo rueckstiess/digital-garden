@@ -3,8 +3,6 @@ languageCode = 'en-us'
 title = "tomr.au"
 theme = 'typo'
 
-# Google analytics code
-# googleAnalytics = "G-xxxxxxxxx"
 
 [taxonomies]
 tag = 'tags'
@@ -101,3 +99,9 @@ category = "General"
 categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-HSWQQJ99X1'
+    disable = false
+    respectDoNotTrack = false
