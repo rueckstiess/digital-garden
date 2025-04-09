@@ -21,7 +21,7 @@ This was an experiment to see how Claude Code, Copilot and LLMs can help develop
 
 ## Overview
 
-What I built is an in-memory graph database that supports a subset of the [Cypher query language](https://neo4j.com/docs/cypher-manual/current/introduction/cypher-overview/), the query language used with Neo4j and other graph databases.
+What I built is a (toy) in-memory graph database that supports a subset of the [Cypher query language](https://neo4j.com/docs/cypher-manual/current/introduction/cypher-overview/), the query language used with Neo4j and other graph databases.
 
 It's written in TypeScript and includes a lexer and parser, an execution engine with pattern matcher, expression evaluation and some utilities to print the results as tables or format as JSON. 
 
